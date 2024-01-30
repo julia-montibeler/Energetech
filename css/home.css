@@ -38,3 +38,13 @@ body, html {
     color: #F1A503;
     text-decoration: none;
 }
+
+.carrossel {
+    width: 75%;
+}
+
+@media screen and ( max-width : 450px ) {
+    .carrossel {
+        width: 100%;
+    }
+}
